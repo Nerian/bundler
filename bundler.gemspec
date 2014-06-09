@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 require 'bundler/version'
 
 Gem::Specification.new do |spec|
-  spec.name        = 'bundler'
+  spec.name        = 'bundler-prehistoric'
   spec.version     = Bundler::VERSION
   spec.licenses    = ['MIT']
   spec.authors     = ["André Arko", "Terence Lee", "Carl Lerche", "Yehuda Katz"]

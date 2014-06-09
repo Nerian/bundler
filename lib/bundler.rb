@@ -1,5 +1,10 @@
 if Gem::Version.new(RUBY_VERSION) < Gem::Version.new('1.8.7')
-  require 'backports'
+  require 'backports/1.8.7/string/end_with'
+  require 'backports/1.8.7/hash/constructor'
+  require 'backports/1.8.7/kernel/tap'
+  require 'backports/1.8.7/stdlib/tmpdir'
+  require 'backports/1.8.7/symbol'
+  require 'backports/1.8.7/array'
   require 'bundler/backports/time'
 end
 
